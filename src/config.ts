@@ -33,6 +33,34 @@ Do NOT use for single-chain gas only -- use gas_get_current_price instead. Do NO
         },
         required: [],
       },
+      outputSchema: {
+          "type": "object",
+          "properties": {
+            "estimates": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "chain": {
+                    "type": "string"
+                  },
+                  "gasPrice": {
+                    "type": "string"
+                  },
+                  "estimatedCostUsd": {
+                    "type": "number"
+                  }
+                }
+              }
+            },
+            "timestamp": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "estimates"
+          ]
+        },
     },
   ],
 };
