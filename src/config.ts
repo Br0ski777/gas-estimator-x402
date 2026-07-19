@@ -9,7 +9,7 @@ export const API_CONFIG: ApiConfig = {
     {
       method: "POST",
       path: "/api/estimate",
-      price: "$0.002",
+      price: "$0.005",
       description: "Get gas price estimates across multiple EVM chains with USD cost",
       toolName: "crypto_estimate_gas",
       toolDescription: `Use this when you need to compare gas prices across multiple EVM chains at once. Returns multi-chain gas estimates in JSON.
