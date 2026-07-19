@@ -37,7 +37,7 @@ Any x402-aware client ([`@x402/fetch`](https://www.npmjs.com/package/@x402/fetch
 
 | Tool | Method | Path | Price | Description |
 |---|---|---|---|---|
-| `crypto_estimate_gas` | POST | `/api/estimate` | $0.002 | Get gas price estimates across multiple EVM chains with USD cost |
+| `crypto_estimate_gas` | POST | `/api/estimate` | $0.005 | Get gas price estimates across multiple EVM chains with USD cost |
 
 ### `crypto_estimate_gas`
 
